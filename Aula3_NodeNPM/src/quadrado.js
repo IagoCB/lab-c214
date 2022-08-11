@@ -7,7 +7,7 @@ const Quadrado = {
         if(validateLado !== undefined){
             return 'Error';
         }
-        var p = lado * 4;
+        let p = lado * 4;
         return p;
     },
 
@@ -16,7 +16,7 @@ const Quadrado = {
         if(validateLado !== undefined){
             return 'Error';
         }
-        var a = lado * lado;
+        let a = lado * lado;
         return a;
     }
 };
